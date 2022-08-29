@@ -1,6 +1,7 @@
 import React from "react";
 import Buttons from "./bottone";
 import Immages from "./immagine";
+import './App.css'
 
 function App() {
   return (
@@ -8,12 +9,12 @@ function App() {
 
       <h1>Titolo</h1>
 
-      <Buttons  contenuto="press me" />
+      <Buttons  contenuto="press me"/>
       <Buttons  contenuto="not press" />
       <Buttons  contenuto="press me too" />
       <Buttons  contenuto="press all of us" />
 
-      <Immages src="../public/frog.png" alt="frog"/>
+      <Immages width="50px" class="immagine" src="/frog.png" alt="frog"/>
     </div>
   );
 }
