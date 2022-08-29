@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className="body">
 
       <h1>Titolo</h1>
 
@@ -14,7 +14,7 @@ function App() {
       <Buttons  contenuto="press me too" />
       <Buttons  contenuto="press all of us" />
 
-      <Immages width="50px" class="immagine" src="/frog.png" alt="frog"/>
+      <Immages width="200px" class="immagine" src="/frog.png" alt="frog"/>
     </div>
   );
 }

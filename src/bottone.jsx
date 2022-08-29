@@ -5,7 +5,7 @@ function Buttons(props) {
         console.log('hai premuto');
     }
     return(
-        <button onClick={log}>{props.contenuto}</button>
+        <button className="buttons" onClick={log}>{props.contenuto}</button>
     )
 }
 
