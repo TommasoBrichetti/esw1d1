@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="body">
 
-      <h1>Titolo</h1>
+      <h1 style={{fontSize: '3.5rem'}}>Titolo</h1>
 
       <Buttons  contenuto="press me"/>
       <Buttons  contenuto="not press" />
